@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">BuzzFeedQuizApp</string>
+    <string name="welcome">Welcome to GoTrivia!</string>
+    <string name="selection">Please select your quiz.</string>
+    <string name="quiz">Quiz Me!</string>
+    <string name="action_settings">Settings</string>
+    <string name="quiz_options"></string>
+    <string-array name="string_array_names">
+        <item>C4Q Fellow</item>
+        <item>Are you Caribbean?</item>
+    </string-array>
 </resources>
