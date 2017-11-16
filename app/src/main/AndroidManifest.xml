@@ -16,6 +16,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".SplashPage" />
+        <activity android:name=".FellowActivity" />
+        <activity android:name=".AnimalLoverActivity"></activity>
     </application>
 
 </manifest>
