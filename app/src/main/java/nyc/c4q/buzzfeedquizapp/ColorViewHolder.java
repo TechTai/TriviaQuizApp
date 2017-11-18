@@ -25,10 +25,10 @@ public class ColorViewHolder extends RecyclerView.ViewHolder {
     }
 
     public void bind(Question question) {
+        //
         itemView.setBackgroundColor(Color.parseColor(question.getColor()));
         question_textview.setText(question.getQuiz_question());
-//        use setImageDrawable after I update the images with Picasso
-//        first_choice.setI
-
+        first_choice.setImageDrawable(first_choice.getDrawable());
+        second_choice.setImageDrawable(second_choice.getDrawable());
     }
 }

@@ -30,13 +30,14 @@ public class FellowActivity extends AppCompatActivity {
         recyclerView.setLayoutManager(manager);
         recyclerView.setAdapter(adapter);
     }
+
     // Builds List Question and returns it
     private List<Question> buildModelList(){
         List<Question> questionList = new ArrayList<>();
-        questionList.add(new Question("#ffffff", "What kind of smartphone do you own?"));
+        questionList.add(new Question("#ffffff", "What kind of smartphone do you own?", R.drawable  ));
         questionList.add(new Question("#f9982f", "When do you attend Access Code classes?"));
         questionList.add(new Question("#e3ee31","Who is your Program Manager?"));
-        questionList.add(new Question("#4366b0", "Who is your Teaching Assistant?"));
+        questionList.add(new Question("#4366b0", "Who is your Teacher?"));
         return questionList;
     }
 }

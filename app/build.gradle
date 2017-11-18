@@ -27,4 +27,6 @@ dependencies {
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.1'
     //Update gradle dependency specific to Recyclerview
     compile 'com.android.support:recyclerview-v7:26.1.0'
+    //  Update gradle dependency specific for Junit testing
+    testCompile("org.junit.jupiter:junit-jupiter-api:5.0.0-M4")
 }

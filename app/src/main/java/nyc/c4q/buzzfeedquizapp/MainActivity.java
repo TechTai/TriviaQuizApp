@@ -2,15 +2,10 @@ package nyc.c4q.buzzfeedquizapp;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.support.v7.widget.LinearLayoutManager;
-import android.support.v7.widget.RecyclerView;
 import android.view.View;
 import android.content.Intent;
 import android.widget.Spinner;
 import android.widget.TextView;
-
-import java.util.ArrayList;
-import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -28,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
         @Override
-        public void onSaveInstanceState (Bundle savedInstanceState) {
+        protected void onSaveInstanceState (Bundle savedInstanceState) {
             super.onSaveInstanceState(savedInstanceState);
             savedInstanceState.putBoolean("isRunning", isRunning);
         }
